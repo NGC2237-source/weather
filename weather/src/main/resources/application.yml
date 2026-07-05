@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/weather_system?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 百度地图API配置
+baidu:
+  map:
+    api-key: ZCF5N74vyutebKV8Da3iAop9IGXh9ptn
+
+server:
+  port: 8080
+
+# 日志配置
+logging:
+  level:
+    com.example.weathersystem: DEBUG
